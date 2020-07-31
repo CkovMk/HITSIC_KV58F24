@@ -1,0 +1,61 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+*.ipch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+
+#iar files
+*.pbi
+*.xcl
+
+
+HITSIC_MK66F18_IAR/boards/HITSIC_MK66F18/__iar/Debug
+HITSIC_MK66F18_IAR/boards/HITSIC_MK66F18/__iar/settings/HITSIC_MK66F18.wsdt
+HITSIC_MK66F18_IAR/boards/HITSIC_MK66F18/__iar/HITSIC_MK66F18.dep
+HITSIC_MK66F18_IAR/boards/HITSIC_MK66F18/__iar/HITSIC_MK66F18.dep
+HITSIC_MK66F18_IAR/boards/HITSIC_MK66F18/__iar/settings/HITSIC_MK66F18.wsdt
+HITSIC_MK66F18_IAR/boards/HITSIC_MK66F18/__iar/HITSIC_MK66F18.dep
+HITSIC_MK66F18_IAR/boards/HITSIC_MK66F18/__iar/settings/HITSIC_MK66F18.wsdt
+*.map
+*.tmp
+*.wsdt
+*.pbw
+*.dep
+*.linf
+*.pbw
+*.browse
+*.pbd
+*.pbd
+*.pbw
+
+
+
+
+HITSIC_MK66F18_MCUX/Debug
+HITSIC_MK66F18_MCUX/Release
