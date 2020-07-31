@@ -1,0 +1,21 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_pwm.c:51:24:uint16_t PWM_GetComplementU16(uint16_t)	16	static
+fsl_pwm.c:56:24:uint16_t dutyCycleToReloadValue(uint8_t)	16	static
+fsl_pwm.c:62:17:uint32_t PWM_GetInstance(PWM_Type*)	24	static
+fsl_pwm.c:91:10:status_t PWM_Init(PWM_Type*, pwm_submodule_t, const pwm_config_t*)	32	static
+fsl_pwm.c:191:6:void PWM_Deinit(PWM_Type*, pwm_submodule_t)	16	static
+fsl_pwm.c:220:6:void PWM_GetDefaultConfig(pwm_config_t*)	16	static
+fsl_pwm.c:270:10:status_t PWM_SetupPwm(PWM_Type*, pwm_submodule_t, const pwm_signal_param_t*, uint8_t, pwm_mode_t, uint32_t, uint32_t)	48	static
+fsl_pwm.c:486:6:void PWM_UpdatePwmDutycycle(PWM_Type*, pwm_submodule_t, pwm_channels_t, pwm_mode_t, uint8_t)	32	static
+fsl_pwm.c:514:6:void PWM_UpdatePwmDutycycleHighAccuracy(PWM_Type*, pwm_submodule_t, pwm_channels_t, pwm_mode_t, uint16_t)	32	static
+fsl_pwm.c:610:6:void PWM_SetupInputCapture(PWM_Type*, pwm_submodule_t, pwm_channels_t, const pwm_input_capture_param_t*)	32	static
+fsl_pwm.c:692:6:void PWM_SetupFaultInputFilter(PWM_Type*, const pwm_fault_input_filter_param_t*)	16	static
+fsl_pwm.c:716:6:void PWM_SetupFaults(PWM_Type*, pwm_fault_input_t, const pwm_fault_param_t*)	32	static
+fsl_pwm.c:804:6:void PWM_FaultDefaultConfig(pwm_fault_param_t*)	16	static
+fsl_pwm.c:832:6:void PWM_SetupForceSignal(PWM_Type*, pwm_submodule_t, pwm_channels_t, pwm_force_signal_t)	24	static
+fsl_pwm.c:856:6:void PWM_EnableInterrupts(PWM_Type*, pwm_submodule_t, uint32_t)	24	static
+fsl_pwm.c:872:6:void PWM_DisableInterrupts(PWM_Type*, pwm_submodule_t, uint32_t)	24	static
+fsl_pwm.c:887:10:uint32_t PWM_GetEnabledInterrupts(PWM_Type*, pwm_submodule_t)	24	static
+fsl_pwm.c:905:10:uint32_t PWM_GetStatusFlags(PWM_Type*, pwm_submodule_t)	24	static
+fsl_pwm.c:923:6:void PWM_ClearStatusFlags(PWM_Type*, pwm_submodule_t, uint32_t)	32	static

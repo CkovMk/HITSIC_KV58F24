@@ -1,0 +1,3 @@
+system_MKV58F24.c:72:6:void SystemInit()	24	static
+system_MKV58F24.c:108:6:void SystemCoreClockUpdate()	16	static
+system_MKV58F24.c:199:29:void SystemInitHook()	4	static

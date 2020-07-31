@@ -1,0 +1,64 @@
+ff.c:610:13:WORD ld_word(const BYTE*)	24	static
+ff.c:619:14:DWORD ld_dword(const BYTE*)	24	static
+ff.c:648:13:void st_word(BYTE*, WORD)	16	static
+ff.c:654:13:void st_dword(BYTE*, DWORD)	16	static
+ff.c:684:13:void mem_cpy(void*, const void*, UINT)	32	static
+ff.c:698:13:void mem_set(void*, int, UINT)	32	static
+ff.c:709:12:int mem_cmp(const void*, const void*, UINT)	40	static
+ff.c:723:12:int chk_chr(const char*, int)	16	static
+ff.c:731:12:int dbc_1st(BYTE)	16	static
+ff.c:751:12:int dbc_2nd(BYTE)	16	static
+ff.c:1072:16:FRESULT sync_window(FATFS*)	24	static
+ff.c:1094:16:FRESULT move_window(FATFS*, LBA_t)	24	static
+ff.c:1125:16:FRESULT sync_fs(FATFS*)	24	static
+ff.c:1162:14:LBA_t clst2sect(FATFS*, DWORD)	16	static
+ff.c:1179:14:DWORD get_fat(FFOBJID*, DWORD)	32	static
+ff.c:1256:16:FRESULT put_fat(FATFS*, DWORD, DWORD)	48	static
+ff.c:1446:16:FRESULT remove_chain(FFOBJID*, DWORD, DWORD)	40	static
+ff.c:1541:14:DWORD create_chain(FFOBJID*, DWORD)	40	static
+ff.c:1674:16:FRESULT dir_clear(FATFS*, DWORD)	32	static
+ff.c:1713:16:FRESULT dir_sdi(DIR*, DWORD)	32	static
+ff.c:1761:16:FRESULT dir_next(DIR*, int)	32	static
+ff.c:1822:16:FRESULT dir_alloc(DIR*, UINT)	32	static
+ff.c:1864:14:DWORD ld_clust(FATFS*, const BYTE*)	24	static
+ff.c:1881:13:void st_clust(FATFS*, BYTE*, DWORD)	24	static
+ff.c:2364:16:FRESULT dir_read(DIR*, int)	32	static
+ff.c:2442:16:FRESULT dir_find(DIR*)	32	static
+ff.c:2523:16:FRESULT dir_register(DIR*)	24	static
+ff.c:2629:16:FRESULT dir_remove(DIR*)	24	static
+ff.c:2675:13:void get_fileinfo(DIR*, FILINFO*)	32	static
+ff.c:2859:16:FRESULT create_name(DIR*, const TCHAR**)	40	static
+ff.c:3060:16:FRESULT follow_path(DIR*, const TCHAR*)	32	static
+ff.c:3147:12:int get_ldnumber(const TCHAR**)	40	static
+ff.c:3293:13:UINT check_fs(FATFS*, LBA_t)	24	static
+ff.c:3329:13:UINT find_volume(FATFS*, UINT)	40	static
+ff.c:3383:16:FRESULT mount_volume(const TCHAR**, FATFS**, BYTE)	72	static
+ff.c:3612:16:FRESULT validate(FFOBJID*, FATFS**)	24	static
+ff.c:3656:9:FRESULT f_mount(FATFS*, const TCHAR*, BYTE)	40	static
+ff.c:3704:9:FRESULT f_open(FIL*, const TCHAR*, BYTE)	96	static
+ff.c:3896:9:FRESULT f_read(FIL*, void*, UINT, UINT*)	64	static
+ff.c:3997:9:FRESULT f_write(FIL*, const void*, UINT, UINT*)	56	static
+ff.c:4119:9:FRESULT f_sync(FIL*)	32	static
+ff.c:4200:9:FRESULT f_close(FIL*)	24	static
+ff.c:4236:9:FRESULT f_chdrive(const TCHAR*)	24	static
+ff.c:4253:9:FRESULT f_chdir(const TCHAR*)	80	static
+ff.c:4315:9:FRESULT f_getcwd(TCHAR*, UINT)	112	static
+ff.c:4415:9:FRESULT f_lseek(FIL*, FSIZE_t)	40	static
+ff.c:4578:9:FRESULT f_opendir(DIR*, const TCHAR*)	24	static
+ff.c:4644:9:FRESULT f_closedir(DIR*)	24	static
+ff.c:4674:9:FRESULT f_readdir(DIR*, FILINFO*)	24	static
+ff.c:4762:9:FRESULT f_stat(const TCHAR*, FILINFO*)	64	static
+ff.c:4797:9:FRESULT f_getfree(const TCHAR*, DWORD*, FATFS**)	72	static
+ff.c:4887:9:FRESULT f_truncate(FIL*)	32	static
+ff.c:4937:9:FRESULT f_unlink(const TCHAR*)	120	static
+ff.c:5031:9:FRESULT f_mkdir(const TCHAR*)	96	static
+ff.c:5115:9:FRESULT f_rename(const TCHAR*, const TCHAR*)	160	static
+ff.c:5703:16:FRESULT create_partition(BYTE, const LBA_t*, UINT, BYTE*)	64	static
+ff.c:5845:9:FRESULT f_mkfs(const TCHAR*, const MKFS_PARM*, void*, UINT)	128	static
+ff.c:6381:8:TCHAR* f_gets(TCHAR*, int, FIL*)	48	static
+ff.c:6528:13:void putc_bfd(putbuff*, TCHAR)	32	static
+ff.c:6659:12:int putc_flush(putbuff*)	24	static
+ff.c:6672:13:void putc_init(putbuff*, FIL*)	16	static
+ff.c:6680:5:int f_putc(TCHAR, FIL*)	96	static
+ff.c:6700:5:int f_puts(const TCHAR*, FIL*)	96	static
+ff.c:6720:5:)	164	static

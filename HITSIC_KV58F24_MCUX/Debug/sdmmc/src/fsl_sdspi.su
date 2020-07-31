@@ -1,0 +1,28 @@
+fsl_sdspi.c:251:17:status_t SDSPI_WaitReady(sdspi_host_t*)	24	static
+fsl_sdspi.c:314:17:status_t SDSPI_SendCommand(sdspi_host_t*, uint32_t, uint32_t, uint8_t*)	40	static
+fsl_sdspi.c:417:17:status_t SDSPI_GoIdle(sdspi_card_t*)	24	static
+fsl_sdspi.c:439:17:status_t SDSPI_SendInterfaceCondition(sdspi_card_t*, uint32_t*)	32	static
+fsl_sdspi.c:479:17:status_t SDSPI_SendApplicationCmd(sdspi_card_t*)	24	static
+fsl_sdspi.c:499:17:status_t SDSPI_ApplicationSendOperationCondition(sdspi_card_t*, uint32_t)	24	static
+fsl_sdspi.c:526:17:status_t SDSPI_ReadOcr(sdspi_card_t*)	32	static
+fsl_sdspi.c:559:17:status_t SDSPI_SetBlockSize(sdspi_card_t*, uint32_t)	24	static
+fsl_sdspi.c:574:13:void SDSPI_DecodeCsd(sdspi_card_t*, uint8_t*)	24	static
+fsl_sdspi.c:681:17:status_t SDSPI_SendCsd(sdspi_card_t*)	24	static
+fsl_sdspi.c:703:13:void SDSPI_DecodeCid(sdspi_card_t*, uint8_t*)	24	static
+fsl_sdspi.c:718:10:status_t SDSPI_SendCid(sdspi_card_t*)	24	static
+fsl_sdspi.c:740:13:void SDSPI_DecodeScr(sdspi_card_t*, uint8_t*)	24	static
+fsl_sdspi.c:762:17:status_t SDSPI_SendScr(sdspi_card_t*)	24	static
+fsl_sdspi.c:789:17:status_t SDSPI_StopTransmission(sdspi_card_t*)	24	static
+fsl_sdspi.c:801:17:status_t SDSPI_Write(sdspi_host_t*, uint8_t*, uint32_t, uint8_t)	32	static
+fsl_sdspi.c:857:17:status_t SDSPI_Read(sdspi_host_t*, uint8_t*, uint32_t)	40	static
+fsl_sdspi.c:900:17:status_t SDSPI_Erase(sdspi_card_t*, uint32_t, uint32_t)	40	static
+fsl_sdspi.c:938:17:status_t SDSPI_SwitchFunction(sdspi_card_t*, uint32_t, uint32_t, uint32_t, uint32_t*)	32	static
+fsl_sdspi.c:964:17:status_t SDSPI_SelectFunction(sdspi_card_t*, uint32_t, uint32_t)	144	static
+fsl_sdspi.c:1040:10:status_t SDSPI_Init(sdspi_card_t*)	24	static
+fsl_sdspi.c:1111:6:void SDSPI_Deinit(sdspi_card_t*)	16	static
+fsl_sdspi.c:1118:6:bool SDSPI_CheckReadOnly(sdspi_card_t*)	16	static
+fsl_sdspi.c:1130:10:status_t SDSPI_ReadBlocks(sdspi_card_t*, uint8_t*, uint32_t, uint32_t)	32	static
+fsl_sdspi.c:1171:10:status_t SDSPI_WriteBlocks(sdspi_card_t*, uint8_t*, uint32_t, uint32_t)	32	static
+fsl_sdspi.c:1229:10:status_t SDSPI_SendPreErase(sdspi_card_t*, uint32_t)	24	static
+fsl_sdspi.c:1254:10:status_t SDSPI_EraseBlocks(sdspi_card_t*, uint32_t, uint32_t)	40	static
+fsl_sdspi.c:1288:10:status_t SDSPI_SwitchToHighSpeed(sdspi_card_t*)	16	static

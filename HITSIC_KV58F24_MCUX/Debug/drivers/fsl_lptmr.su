@@ -1,0 +1,6 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_lptmr.c:53:17:uint32_t LPTMR_GetInstance(LPTMR_Type*)	24	static
+fsl_lptmr.c:80:6:void LPTMR_Init(LPTMR_Type*, const lptmr_config_t*)	24	static
+fsl_lptmr.c:112:6:void LPTMR_Deinit(LPTMR_Type*)	24	static
+fsl_lptmr.c:147:6:void LPTMR_GetDefaultConfig(lptmr_config_t*)	16	static

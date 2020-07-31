@@ -1,0 +1,6 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_flexbus.c:45:17:uint32_t FLEXBUS_GetInstance(FB_Type*)	24	static
+fsl_flexbus.c:85:6:void FLEXBUS_Init(FB_Type*, const flexbus_config_t*)	24	static
+fsl_flexbus.c:194:6:void FLEXBUS_Deinit(FB_Type*)	16	static
+fsl_flexbus.c:230:6:void FLEXBUS_GetDefaultConfig(flexbus_config_t*)	16	static

@@ -1,0 +1,7 @@
+fsl_flexcan.h:1043:24:uint32_t FLEXCAN_GetRxFifoHeadAddr(CAN_Type*)	16	static
+fsl_flexcan_edma.c:61:13:void FLEXCAN_ReceiveFifoEDMACallback(edma_handle_t*, void*, bool, uint32_t)	40	static
+fsl_flexcan_edma.c:90:6:void FLEXCAN_TransferCreateHandleEDMA(CAN_Type*, flexcan_edma_handle_t*, flexcan_edma_transfer_callback_t, void*, edma_handle_t*)	32	static
+fsl_flexcan_edma.c:125:6:void FLEXCAN_PrepareTransfConfiguration(CAN_Type*, flexcan_fifo_transfer_t*, edma_transfer_config_t*)	48	static
+fsl_flexcan_edma.c:159:10:status_t FLEXCAN_StartTransferDatafromRxFIFO(CAN_Type*, flexcan_edma_handle_t*, edma_transfer_config_t*)	32	static
+fsl_flexcan_edma.c:202:10:status_t FLEXCAN_TransferReceiveFifoEDMA(CAN_Type*, flexcan_edma_handle_t*, flexcan_fifo_transfer_t*)	56	static
+fsl_flexcan_edma.c:228:6:void FLEXCAN_TransferAbortReceiveFifoEDMA(CAN_Type*, flexcan_edma_handle_t*)	16	static

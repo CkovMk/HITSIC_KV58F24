@@ -1,0 +1,14 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_adc16.c:40:17:uint32_t ADC16_GetInstance(ADC_Type*)	24	static
+fsl_adc16.c:64:6:void ADC16_Init(ADC_Type*, const adc16_config_t*)	24	static
+fsl_adc16.c:125:6:void ADC16_Deinit(ADC_Type*)	16	static
+fsl_adc16.c:151:6:void ADC16_GetDefaultConfig(adc16_config_t*)	16	static
+fsl_adc16.c:183:10:status_t ADC16_DoAutoCalibration(ADC_Type*)	32	static
+fsl_adc16.c:260:6:void ADC16_SetChannelMuxMode(ADC_Type*, adc16_channel_mux_mode_t)	16	static
+fsl_adc16.c:285:6:void ADC16_SetHardwareCompareConfig(ADC_Type*, const adc16_hardware_compare_config_t*)	24	static
+fsl_adc16.c:333:6:void ADC16_SetHardwareAverage(ADC_Type*, adc16_hardware_average_mode_t)	24	static
+fsl_adc16.c:393:10:uint32_t ADC16_GetStatusFlags(ADC_Type*)	24	static
+fsl_adc16.c:416:6:void ADC16_ClearStatusFlags(ADC_Type*, uint32_t)	16	static
+fsl_adc16.c:453:6:void ADC16_SetChannelConfig(ADC_Type*, uint32_t, const adc16_channel_config_t*)	32	static
+fsl_adc16.c:483:10:uint32_t ADC16_GetChannelStatusFlags(ADC_Type*, uint32_t)	24	static

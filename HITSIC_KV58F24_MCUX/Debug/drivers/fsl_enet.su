@@ -1,0 +1,58 @@
+core_cm7.h:1902:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_common.h:484:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_enet.h:806:20:void ENET_Reset(ENET_Type*)	16	static
+fsl_enet.h:849:20:bool ENET_GetSMI(ENET_Type*)	16	static
+fsl_enet.h:1118:20:void ENET_EnableSleepMode(ENET_Type*, bool)	16	static
+fsl_enet.h:1170:20:void ENET_EnableInterrupts(ENET_Type*, uint32_t)	16	static
+fsl_enet.c:165:10:uint32_t ENET_GetInstance(ENET_Type*)	24	static
+fsl_enet.c:197:6:void ENET_GetDefaultConfig(enet_config_t*)	16	static
+fsl_enet.c:246:6:void ENET_Up(ENET_Type*, enet_handle_t*, const enet_config_t*, const enet_buffer_config_t*, uint8_t*, uint32_t)	32	static
+fsl_enet.c:299:6:void ENET_Init(ENET_Type*, enet_handle_t*, const enet_config_t*, const enet_buffer_config_t*, uint8_t*, uint32_t)	40	static
+fsl_enet.c:325:6:void ENET_Down(ENET_Type*)	16	static
+fsl_enet.c:341:6:void ENET_Deinit(ENET_Type*)	16	static
+fsl_enet.c:360:6:void ENET_SetCallback(enet_handle_t*, enet_callback_t, void*)	24	static
+fsl_enet.c:386:6:void ENET_SetRxISRHandler(ENET_Type*, enet_isr_t)	24	static
+fsl_enet.c:394:6:void ENET_SetTxISRHandler(ENET_Type*, enet_isr_t)	24	static
+fsl_enet.c:403:6:void ENET_SetErrISRHandler(ENET_Type*, enet_isr_t)	24	static
+fsl_enet.c:431:13:void ENET_SetHandler(ENET_Type*, enet_handle_t*, const enet_config_t*, const enet_buffer_config_t*)	40	static
+fsl_enet.c:480:13:void ENET_SetMacController(ENET_Type*, enet_handle_t*, const enet_config_t*, const enet_buffer_config_t*, uint8_t*, uint32_t)	56	static
+fsl_enet.c:737:13:void ENET_SetTxBufferDescriptors(enet_handle_t*, const enet_config_t*, const enet_buffer_config_t*)	48	static
+fsl_enet.c:802:13:void ENET_SetRxBufferDescriptors(enet_handle_t*, const enet_config_t*, const enet_buffer_config_t*)	48	static
+fsl_enet.c:901:13:void ENET_ActiveSend(ENET_Type*, uint8_t)	24	static
+fsl_enet.c:956:6:void ENET_SetMII(ENET_Type*, enet_mii_speed_t, enet_mii_duplex_t)	24	static
+fsl_enet.c:1009:6:void ENET_SetMacAddr(ENET_Type*, uint8_t*)	24	static
+fsl_enet.c:1029:6:void ENET_GetMacAddr(ENET_Type*, uint8_t*)	24	static
+fsl_enet.c:1057:6:void ENET_SetSMI(ENET_Type*, uint32_t, bool)	40	static
+fsl_enet.c:1086:6:void ENET_StartSMIWrite(ENET_Type*, uint32_t, uint32_t, enet_mii_write_t, uint32_t)	32	static
+fsl_enet.c:1106:6:void ENET_StartSMIRead(ENET_Type*, uint32_t, uint32_t, enet_mii_read_t)	32	static
+fsl_enet.c:1128:6:void ENET_StartExtC45SMIWrite(ENET_Type*, uint32_t, uint32_t, uint32_t)	32	static
+fsl_enet.c:1158:6:void ENET_StartExtC45SMIRead(ENET_Type*, uint32_t, uint32_t)	32	static
+fsl_enet.c:1186:6:void ENET_StartExtC45SMIWriteReg(ENET_Type*, uint32_t, uint32_t)	32	static
+fsl_enet.c:1225:6:void ENET_StartExtC45SMIWriteData(ENET_Type*, uint32_t, uint32_t, uint32_t)	32	static
+fsl_enet.c:1264:6:void ENET_StartExtC45SMIReadData(ENET_Type*, uint32_t, uint32_t)	32	static
+fsl_enet.c:1278:17:uint16_t ENET_IncreaseIndex(uint16_t, uint16_t)	16	static
+fsl_enet.c:1289:20:bool ENET_TxDirtyRingAvailable(enet_tx_dirty_ring_t*)	16	static
+fsl_enet.c:1313:6:void ENET_GetRxErrBeforeReadFrame(enet_handle_t*, enet_data_error_stats_t*, uint8_t)	40	static
+fsl_enet.c:1407:10:status_t ENET_GetRxFrameSize(enet_handle_t*, uint32_t*, uint8_t)	48	static
+fsl_enet.c:1521:10:status_t ENET_ReadFrame(ENET_Type*, enet_handle_t*, uint8_t*, uint32_t, uint8_t, uint32_t*)	64	static
+fsl_enet.c:1629:13:void ENET_UpdateReadBuffers(ENET_Type*, enet_handle_t*, uint8_t)	40	static
+fsl_enet.c:1689:10:status_t ENET_SendFrame(ENET_Type*, enet_handle_t*, const uint8_t*, uint32_t, uint8_t, bool, void*)	72	static
+fsl_enet.c:1894:10:status_t ENET_SetTxReclaim(enet_handle_t*, bool, uint8_t)	32	static
+fsl_enet.c:1935:13:void ENET_ReclaimTxDescriptor(ENET_Type*, enet_handle_t*, uint8_t)	56	static
+fsl_enet.c:2023:10:status_t ENET_GetRxBuffer(ENET_Type*, enet_handle_t*, void**, uint32_t*, uint8_t, bool*, uint32_t*)	40	static
+fsl_enet.c:2104:6:void ENET_ReleaseRxBuffer(ENET_Type*, enet_handle_t*, void*, uint8_t)	48	static
+fsl_enet.c:2227:10:status_t ENET_SendFrameZeroCopy(ENET_Type*, enet_handle_t*, const uint8_t*, uint32_t, uint8_t, bool, void*)	64	static
+fsl_enet.c:2416:10:status_t ENET_SetTxBuffer(ENET_Type*, enet_handle_t*, const uint8_t*, uint32_t, uint8_t, uint8_t, void*)	56	static
+fsl_enet.c:2553:6:void ENET_AddMulticastGroup(ENET_Type*, uint8_t*)	40	static
+fsl_enet.c:2602:6:void ENET_LeaveMulticastGroup(ENET_Type*, uint8_t*)	40	static
+fsl_enet.c:2968:6:void ENET_TransmitIRQHandler(ENET_Type*, enet_handle_t*)	48	static
+fsl_enet.c:3034:6:void ENET_ReceiveIRQHandler(ENET_Type*, enet_handle_t*)	40	static
+fsl_enet.c:3079:6:void ENET_ErrorIRQHandler(ENET_Type*, enet_handle_t*)	40	static
+fsl_enet.c:3178:6:void ENET_CommonFrame0IRQHandler(ENET_Type*)	24	static
+fsl_enet.c:3263:6:void ENET_Transmit_IRQHandler()	8	static
+fsl_enet.c:3269:6:void ENET_Receive_IRQHandler()	8	static
+fsl_enet.c:3275:6:void ENET_Error_IRQHandler()	8	static
+fsl_enet.c:3281:6:void ENET_1588_Timer_IRQHandler()	8	static
+fsl_enet.c:3287:6:void ENET_DriverIRQHandler()	8	static

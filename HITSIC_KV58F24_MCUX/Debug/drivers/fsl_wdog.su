@@ -1,0 +1,12 @@
+fsl_common.h:552:28:uint32_t DisableGlobalIRQ()	16	static
+fsl_common.h:583:24:void EnableGlobalIRQ(uint32_t)	24	static
+fsl_wdog.h:244:20:void WDOG_Disable(WDOG_Type*)	16	static
+fsl_wdog.h:364:20:void WDOG_Unlock(WDOG_Type*)	16	static
+fsl_wdog.h:399:20:void WDOG_ClearResetCount(WDOG_Type*)	16	static
+fsl_wdog.c:42:6:void WDOG_GetDefaultConfig(wdog_config_t*)	16	static
+fsl_wdog.c:83:6:void WDOG_Init(WDOG_Type*, const wdog_config_t*)	24	static
+fsl_wdog.c:121:6:void WDOG_Deinit(WDOG_Type*)	24	static
+fsl_wdog.c:152:6:void WDOG_SetTestModeConfig(WDOG_Type*, wdog_test_config_t*)	24	static
+fsl_wdog.c:191:10:uint32_t WDOG_GetStatusFlags(WDOG_Type*)	24	static
+fsl_wdog.c:215:6:void WDOG_ClearStatusFlags(WDOG_Type*, uint32_t)	16	static
+fsl_wdog.c:231:6:void WDOG_Refresh(WDOG_Type*)	24	static

@@ -1,0 +1,20 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_trng.c:1230:17:uint32_t trng_GetInstance(TRNG_Type*)	24	static
+fsl_trng.c:1292:10:status_t TRNG_GetDefaultConfig(trng_config_t*)	24	static
+fsl_trng.c:1353:17:status_t trng_SetRetryCount(TRNG_Type*, uint8_t)	24	static
+fsl_trng.c:1375:17:status_t trng_SetMonobitLimit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1400:17:status_t trng_SetRunBit1Limit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1424:17:status_t trng_SetRunBit2Limit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1448:17:status_t trng_SetRunBit3Limit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1471:17:status_t trng_SetRunBit4Limit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1494:17:status_t trng_SetRunBit5Limit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1517:17:status_t trng_SetRunBit6Limit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1540:17:status_t trng_SetPokerMaxLimit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1563:17:status_t trng_SetFrequencyCountMaxLimit(TRNG_Type*, uint32_t, uint32_t)	32	static
+fsl_trng.c:1588:17:status_t trng_SetStatisticalCheckLimit(TRNG_Type*, trng_statistical_check_t, const trng_statistical_check_limit_t*)	32	static
+fsl_trng.c:1661:17:status_t trng_ApplyUserConfig(TRNG_Type*, const trng_config_t*)	24	static
+fsl_trng.c:1742:17:uint32_t trng_ReadEntropy(TRNG_Type*, uint32_t)	24	static
+fsl_trng.c:1772:10:status_t TRNG_Init(TRNG_Type*, const trng_config_t*)	24	static
+fsl_trng.c:1827:6:void TRNG_Deinit(TRNG_Type*)	16	static
+fsl_trng.c:1862:10:status_t TRNG_GetRandomData(TRNG_Type*, void*, size_t)	64	static

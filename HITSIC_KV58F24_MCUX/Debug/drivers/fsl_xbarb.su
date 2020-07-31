@@ -1,0 +1,6 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_xbarb.c:54:17:uint32_t XBARB_GetInstance(XBARB_Type*)	24	static
+fsl_xbarb.c:79:6:void XBARB_Init(XBARB_Type*)	16	static
+fsl_xbarb.c:94:6:void XBARB_Deinit(XBARB_Type*)	16	static
+fsl_xbarb.c:113:6:void XBARB_SetSignalsConnection(XBARB_Type*, xbar_input_signal_t, xbar_output_signal_t)	24	static

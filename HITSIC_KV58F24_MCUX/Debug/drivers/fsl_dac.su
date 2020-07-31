@@ -1,0 +1,15 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_dac.h:187:20:void DAC_Enable(DAC_Type*, bool)	16	static
+fsl_dac.c:39:17:uint32_t DAC_GetInstance(DAC_Type*)	24	static
+fsl_dac.c:68:6:void DAC_Init(DAC_Type*, const dac_config_t*)	24	static
+fsl_dac.c:105:6:void DAC_Deinit(DAC_Type*)	16	static
+fsl_dac.c:125:6:void DAC_GetDefaultConfig(dac_config_t*)	16	static
+fsl_dac.c:142:6:void DAC_SetBufferConfig(DAC_Type*, const dac_buffer_config_t*)	24	static
+fsl_dac.c:187:6:void DAC_GetDefaultBufferConfig(dac_buffer_config_t*)	16	static
+fsl_dac.c:210:6:void DAC_SetBufferValue(DAC_Type*, uint8_t, uint16_t)	16	static
+fsl_dac.c:228:6:void DAC_SetBufferReadPointer(DAC_Type*, uint8_t)	24	static
+fsl_dac.c:244:6:void DAC_EnableBufferInterrupts(DAC_Type*, uint32_t)	16	static
+fsl_dac.c:260:6:void DAC_DisableBufferInterrupts(DAC_Type*, uint32_t)	16	static
+fsl_dac.c:277:9:uint8_t DAC_GetBufferStatusFlags(DAC_Type*)	16	static
+fsl_dac.c:292:6:void DAC_ClearBufferStatusFlags(DAC_Type*, uint32_t)	16	static

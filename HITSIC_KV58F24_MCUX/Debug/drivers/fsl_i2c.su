@@ -1,0 +1,44 @@
+core_cm7.h:1902:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_common.h:484:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_i2c.h:385:20:void I2C_Enable(I2C_Type*, bool)	16	static
+fsl_i2c.h:418:24:uint32_t I2C_SlaveGetStatusFlags(I2C_Type*)	16	static
+fsl_i2c.h:436:20:void I2C_MasterClearStatusFlags(I2C_Type*, uint32_t)	16	static
+fsl_i2c.h:471:20:void I2C_SlaveClearStatusFlags(I2C_Type*, uint32_t)	16	static
+fsl_i2c.c:146:10:uint32_t I2C_GetInstance(I2C_Type*)	24	static
+fsl_i2c.c:164:13:void I2C_SetHoldTime(I2C_Type*, uint32_t, uint32_t)	56	static
+fsl_i2c.c:232:17:status_t I2C_InitTransferStateMachine(I2C_Type*, i2c_master_handle_t*, i2c_master_transfer_t*)	40	static
+fsl_i2c.c:309:17:status_t I2C_CheckAndClearError(I2C_Type*, uint32_t)	24	static
+fsl_i2c.c:333:17:status_t I2C_MasterTransferRunStateMachine(I2C_Type*, i2c_master_handle_t*, bool*)	40	static
+fsl_i2c.c:522:13:void I2C_TransferCommonIRQHandler(I2C_Type*, void*)	24	static
+fsl_i2c.c:564:6:void I2C_MasterInit(I2C_Type*, const i2c_master_config_t*, uint32_t)	32	static
+fsl_i2c.c:632:6:void I2C_MasterDeinit(I2C_Type*)	16	static
+fsl_i2c.c:656:6:void I2C_MasterGetDefaultConfig(i2c_master_config_t*)	16	static
+fsl_i2c.c:693:6:void I2C_EnableInterrupts(I2C_Type*, uint32_t)	24	static
+fsl_i2c.c:743:6:void I2C_DisableInterrupts(I2C_Type*, uint32_t)	16	static
+fsl_i2c.c:772:6:void I2C_MasterSetBaudRate(I2C_Type*, uint32_t, uint32_t)	56	static
+fsl_i2c.c:835:10:status_t I2C_MasterStart(I2C_Type*, uint8_t, i2c_direction_t)	24	static
+fsl_i2c.c:882:10:status_t I2C_MasterRepeatedStart(I2C_Type*, uint8_t, i2c_direction_t)	32	static
+fsl_i2c.c:940:10:status_t I2C_MasterStop(I2C_Type*)	24	static
+fsl_i2c.c:974:10:uint32_t I2C_MasterGetStatusFlags(I2C_Type*)	24	static
+fsl_i2c.c:1009:10:status_t I2C_MasterWriteBlocking(I2C_Type*, const uint8_t*, size_t, uint32_t)	32	static
+fsl_i2c.c:1111:10:status_t I2C_MasterReadBlocking(I2C_Type*, uint8_t*, size_t, uint32_t)	32	static
+fsl_i2c.c:1231:10:status_t I2C_MasterTransferBlocking(I2C_Type*, i2c_master_transfer_t*)	48	static
+fsl_i2c.c:1457:6:void I2C_MasterTransferCreateHandle(I2C_Type*, i2c_master_handle_t*, i2c_master_transfer_callback_t, void*)	32	static
+fsl_i2c.c:1498:10:status_t I2C_MasterTransferNonBlocking(I2C_Type*, i2c_master_handle_t*, i2c_master_transfer_t*)	32	static
+fsl_i2c.c:1536:10:status_t I2C_MasterTransferAbort(I2C_Type*, i2c_master_handle_t*)	24	static
+fsl_i2c.c:1618:10:status_t I2C_MasterTransferGetCount(I2C_Type*, i2c_master_handle_t*, size_t*)	24	static
+fsl_i2c.c:1638:6:void I2C_MasterTransferHandleIRQ(I2C_Type*, void*)	40	static
+fsl_i2c.c:1709:6:void I2C_SlaveInit(I2C_Type*, const i2c_slave_config_t*, uint32_t)	32	static
+fsl_i2c.c:1778:6:void I2C_SlaveDeinit(I2C_Type*)	16	static
+fsl_i2c.c:1801:6:void I2C_SlaveGetDefaultConfig(i2c_slave_config_t*)	16	static
+fsl_i2c.c:1842:10:status_t I2C_SlaveWriteBlocking(I2C_Type*, const uint8_t*, size_t)	32	static
+fsl_i2c.c:1900:10:status_t I2C_SlaveReadBlocking(I2C_Type*, uint8_t*, size_t)	32	static
+fsl_i2c.c:1994:6:void I2C_SlaveTransferCreateHandle(I2C_Type*, i2c_slave_handle_t*, i2c_slave_transfer_callback_t, void*)	32	static
+fsl_i2c.c:2044:10:status_t I2C_SlaveTransferNonBlocking(I2C_Type*, i2c_slave_handle_t*, uint32_t)	24	static
+fsl_i2c.c:2086:6:void I2C_SlaveTransferAbort(I2C_Type*, i2c_slave_handle_t*)	16	static
+fsl_i2c.c:2112:10:status_t I2C_SlaveTransferGetCount(I2C_Type*, i2c_slave_handle_t*, size_t*)	24	static
+fsl_i2c.c:2140:6:void I2C_SlaveTransferHandleIRQ(I2C_Type*, void*)	40	static
+fsl_i2c.c:2397:6:void I2C0_DriverIRQHandler()	8	static
+fsl_i2c.c:2404:6:void I2C1_DriverIRQHandler()	8	static

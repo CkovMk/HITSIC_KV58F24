@@ -1,0 +1,8 @@
+serial_port_swo.c:47:25:serial_manager_status_t Serial_SwoInit(serial_handle_t, void*)	32	static
+serial_port_swo.c:107:25:serial_manager_status_t Serial_SwoDeinit(serial_handle_t)	24	static
+serial_port_swo.c:120:25:serial_manager_status_t Serial_SwoWrite(serial_handle_t, uint8_t*, uint32_t)	32	static
+serial_port_swo.c:165:25:serial_manager_status_t Serial_SwoRead(serial_handle_t, uint8_t*, uint32_t)	24	static
+serial_port_swo.c:171:25:serial_manager_status_t Serial_SwoCancelWrite(serial_handle_t)	16	static
+serial_port_swo.c:176:25:serial_manager_status_t Serial_SwoInstallTxCallback(serial_handle_t, serial_manager_callback_t, void*)	32	static
+serial_port_swo.c:192:25:serial_manager_status_t Serial_SwoInstallRxCallback(serial_handle_t, serial_manager_callback_t, void*)	24	static
+serial_port_swo.c:199:6:void Serial_SwoIsrFunction(serial_handle_t)	16	static

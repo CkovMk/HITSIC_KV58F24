@@ -1,0 +1,9 @@
+fsl_common.h:552:28:uint32_t DisableGlobalIRQ()	16	static
+fsl_common.h:583:24:void EnableGlobalIRQ(uint32_t)	24	static
+mem_manager.c:130:14:mem_status_t MEM_Init()	16	static
+mem_manager.c:175:14:mem_status_t MEM_AddBuffer(uint8_t*)	40	static
+mem_manager.c:303:7:void* MEM_BufferAllocWithId(uint32_t, uint8_t)	32	static
+mem_manager.c:373:14:mem_status_t MEM_BufferFree(void*)	24	static
+mem_manager.c:410:10:uint16_t MEM_BufferGetSize(void*)	24	static
+mem_manager.c:434:14:mem_status_t MEM_BufferFreeAllWithId(uint8_t)	32	static
+mem_manager.c:473:7:void* MEM_BufferRealloc(void*, uint32_t)	24	static

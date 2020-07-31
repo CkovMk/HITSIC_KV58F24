@@ -1,0 +1,11 @@
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_sysmpu.h:268:20:void SYSMPU_Enable(SYSMPU_Type*, bool)	16	static
+fsl_sysmpu.c:36:6:void SYSMPU_Init(SYSMPU_Type*, const sysmpu_config_t*)	24	static
+fsl_sysmpu.c:71:6:void SYSMPU_Deinit(SYSMPU_Type*)	16	static
+fsl_sysmpu.c:88:6:void SYSMPU_GetHardwareInfo(SYSMPU_Type*, sysmpu_hardware_info_t*)	24	static
+fsl_sysmpu.c:111:6:void SYSMPU_SetRegionConfig(SYSMPU_Type*, const sysmpu_region_config_t*)	24	static
+fsl_sysmpu.c:176:6:void SYSMPU_SetRegionAddr(SYSMPU_Type*, uint32_t, uint32_t, uint32_t)	24	static
+fsl_sysmpu.c:204:6:void SYSMPU_SetRegionRwxMasterAccessRights(SYSMPU_Type*, uint32_t, uint32_t, const sysmpu_rwxrights_master_access_control_t*)	32	static
+fsl_sysmpu.c:279:6:bool SYSMPU_GetSlavePortErrorStatus(SYSMPU_Type*, sysmpu_slave_t)	24	static
+fsl_sysmpu.c:296:6:void SYSMPU_GetDetailErrorAccessInfo(SYSMPU_Type*, sysmpu_slave_t, sysmpu_access_err_info_t*)	40	static

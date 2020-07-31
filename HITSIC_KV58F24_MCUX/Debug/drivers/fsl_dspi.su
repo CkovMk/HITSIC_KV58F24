@@ -1,0 +1,56 @@
+core_cm7.h:1902:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+core_cm7.h:1940:22:void __NVIC_DisableIRQ(IRQn_Type)	16	static
+fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_common.h:484:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_common.h:522:28:status_t DisableIRQ(IRQn_Type)	16	static
+fsl_dspi.h:509:20:void DSPI_Enable(SPI_Type*, bool)	16	static
+fsl_dspi.h:535:24:uint32_t DSPI_GetStatusFlags(SPI_Type*)	16	static
+fsl_dspi.h:553:20:void DSPI_ClearStatusFlags(SPI_Type*, uint32_t)	16	static
+fsl_dspi.h:593:20:void DSPI_DisableInterrupts(SPI_Type*, uint32_t)	16	static
+fsl_dspi.h:699:20:void DSPI_SetMasterSlaveMode(SPI_Type*, dspi_master_slave_mode_t)	16	static
+fsl_dspi.h:710:20:bool DSPI_IsMaster(SPI_Type*)	24	static
+fsl_dspi.h:726:20:void DSPI_StartTransfer(SPI_Type*)	16	static
+fsl_dspi.h:737:20:void DSPI_StopTransfer(SPI_Type*)	16	static
+fsl_dspi.h:766:20:void DSPI_FlushFifo(SPI_Type*, bool, bool)	16	static
+fsl_dspi.h:946:24:uint32_t DSPI_MasterGetFormattedCommand(dspi_command_data_config_t*)	16	static
+fsl_dspi.h:1031:24:uint32_t DSPI_ReadData(SPI_Type*)	16	static
+fsl_dspi.c:127:10:uint32_t DSPI_GetInstance(SPI_Type*)	24	static
+fsl_dspi.c:153:9:uint8_t DSPI_GetDummyDataInstance(SPI_Type*)	24	static
+fsl_dspi.c:166:6:void DSPI_SetDummyData(SPI_Type*, uint8_t)	24	static
+fsl_dspi.c:200:6:void DSPI_MasterInit(SPI_Type*, const dspi_master_config_t*, uint32_t)	40	static
+fsl_dspi.c:261:6:void DSPI_MasterGetDefaultConfig(dspi_master_config_t*)	16	static
+fsl_dspi.c:308:6:void DSPI_SlaveInit(SPI_Type*, const dspi_slave_config_t*)	24	static
+fsl_dspi.c:359:6:void DSPI_SlaveGetDefaultConfig(dspi_slave_config_t*)	16	static
+fsl_dspi.c:381:6:void DSPI_Deinit(SPI_Type*)	16	static
+fsl_dspi.c:392:13:void DSPI_SetOnePcsPolarity(SPI_Type*, dspi_which_pcs_t, dspi_pcs_polarity_config_t)	24	static
+fsl_dspi.c:423:10:uint32_t DSPI_MasterSetBaudRate(SPI_Type*, dspi_ctar_selection_t, uint32_t, uint32_t)	72	static
+fsl_dspi.c:518:6:void DSPI_MasterSetDelayScaler(SPI_Type*, dspi_ctar_selection_t, uint32_t, uint32_t, dspi_delay_type_t)	24	static
+fsl_dspi.c:571:10:uint32_t DSPI_MasterSetDelayTimes(SPI_Type*, dspi_ctar_selection_t, dspi_delay_type_t, uint32_t, uint32_t)	72	static
+fsl_dspi.c:665:6:void DSPI_GetDefaultDataCommandConfig(dspi_command_data_config_t*)	16	static
+fsl_dspi.c:706:6:void DSPI_MasterWriteDataBlocking(SPI_Type*, dspi_command_data_config_t*, uint16_t)	24	static
+fsl_dspi.c:770:6:void DSPI_MasterWriteCommandDataBlocking(SPI_Type*, uint32_t)	16	static
+fsl_dspi.c:799:6:void DSPI_SlaveWriteDataBlocking(SPI_Type*, uint32_t)	16	static
+fsl_dspi.c:833:6:void DSPI_EnableInterrupts(SPI_Type*, uint32_t)	16	static
+fsl_dspi.c:859:6:void DSPI_MasterTransferCreateHandle(SPI_Type*, dspi_master_handle_t*, dspi_master_transfer_callback_t, void*)	32	static
+fsl_dspi.c:885:10:status_t DSPI_MasterTransferBlocking(SPI_Type*, dspi_transfer_t*)	72	static
+fsl_dspi.c:1152:13:void DSPI_MasterTransferPrepare(SPI_Type*, dspi_master_handle_t*, dspi_transfer_t*)	40	static
+fsl_dspi.c:1207:10:status_t DSPI_MasterTransferNonBlocking(SPI_Type*, dspi_master_handle_t*, dspi_transfer_t*)	24	static
+fsl_dspi.c:1260:10:status_t DSPI_MasterHalfDuplexTransferBlocking(SPI_Type*, dspi_half_duplex_transfer_t*)	40	static
+fsl_dspi.c:1327:10:status_t DSPI_MasterHalfDuplexTransferNonBlocking(SPI_Type*, dspi_master_handle_t*, dspi_half_duplex_transfer_t*)	48	static
+fsl_dspi.c:1393:10:status_t DSPI_MasterTransferGetCount(SPI_Type*, dspi_master_handle_t*, size_t*)	24	static
+fsl_dspi.c:1413:13:void DSPI_MasterTransferComplete(SPI_Type*, dspi_master_handle_t*)	32	static
+fsl_dspi.c:1438:13:void DSPI_MasterTransferFillUpTxFifo(SPI_Type*, dspi_master_handle_t*)	32	static
+fsl_dspi.c:1577:6:void DSPI_MasterTransferAbort(SPI_Type*, dspi_master_handle_t*)	16	static
+fsl_dspi.c:1598:6:void DSPI_MasterTransferHandleIRQ(SPI_Type*, dspi_master_handle_t*)	24	static
+fsl_dspi.c:1721:6:void DSPI_SlaveTransferCreateHandle(SPI_Type*, dspi_slave_handle_t*, dspi_slave_transfer_callback_t, void*)	32	static
+fsl_dspi.c:1748:10:status_t DSPI_SlaveTransferNonBlocking(SPI_Type*, dspi_slave_handle_t*, dspi_transfer_t*)	32	static
+fsl_dspi.c:1827:10:status_t DSPI_SlaveTransferGetCount(SPI_Type*, dspi_slave_handle_t*, size_t*)	24	static
+fsl_dspi.c:1847:13:void DSPI_SlaveTransferFillUpTxFifo(SPI_Type*, dspi_slave_handle_t*)	24	static
+fsl_dspi.c:1935:13:void DSPI_SlaveTransferComplete(SPI_Type*, dspi_slave_handle_t*)	32	static
+fsl_dspi.c:1976:6:void DSPI_SlaveTransferAbort(SPI_Type*, dspi_slave_handle_t*)	16	static
+fsl_dspi.c:2000:6:void DSPI_SlaveTransferHandleIRQ(SPI_Type*, dspi_slave_handle_t*)	32	static
+fsl_dspi.c:2179:13:void DSPI_CommonIRQHandler(SPI_Type*, void*)	16	static
+fsl_dspi.c:2193:6:void SPI0_DriverIRQHandler()	8	static
+fsl_dspi.c:2201:6:void SPI1_DriverIRQHandler()	8	static
+fsl_dspi.c:2209:6:void SPI2_DriverIRQHandler()	8	static

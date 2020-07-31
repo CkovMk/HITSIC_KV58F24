@@ -1,0 +1,22 @@
+fsl_dspi.h:553:20:void DSPI_ClearStatusFlags(SPI_Type*, uint32_t)	16	static
+fsl_dspi.h:618:20:void DSPI_EnableDMA(SPI_Type*, uint32_t)	16	static
+fsl_dspi.h:634:20:void DSPI_DisableDMA(SPI_Type*, uint32_t)	16	static
+fsl_dspi.h:647:24:uint32_t DSPI_MasterGetTxRegisterAddress(SPI_Type*)	16	static
+fsl_dspi.h:660:24:uint32_t DSPI_SlaveGetTxRegisterAddress(SPI_Type*)	16	static
+fsl_dspi.h:673:24:uint32_t DSPI_GetRxRegisterAddress(SPI_Type*)	16	static
+fsl_dspi.h:726:20:void DSPI_StartTransfer(SPI_Type*)	16	static
+fsl_dspi.h:737:20:void DSPI_StopTransfer(SPI_Type*)	16	static
+fsl_dspi.h:766:20:void DSPI_FlushFifo(SPI_Type*, bool, bool)	16	static
+fsl_dspi.h:946:24:uint32_t DSPI_MasterGetFormattedCommand(dspi_command_data_config_t*)	16	static
+fsl_edma.h:462:20:void EDMA_EnableAutoStopRequest(DMA_Type*, uint32_t, bool)	24	static
+fsl_dspi_edma.c:91:6:void DSPI_MasterTransferCreateHandleEDMA(SPI_Type*, dspi_master_edma_handle_t*, dspi_master_edma_transfer_callback_t, void*, edma_handle_t*, edma_handle_t*, edma_handle_t*)	32	static
+fsl_dspi_edma.c:137:10:status_t DSPI_MasterTransferEDMA(SPI_Type*, dspi_master_edma_handle_t*, dspi_transfer_t*)	160	static
+fsl_dspi_edma.c:951:10:status_t DSPI_MasterHalfDuplexTransferEDMA(SPI_Type*, dspi_master_edma_handle_t*, dspi_half_duplex_transfer_t*)	48	static
+fsl_dspi_edma.c:1006:13:void EDMA_DspiMasterCallback(edma_handle_t*, void*, bool, uint32_t)	40	static
+fsl_dspi_edma.c:1037:6:void DSPI_MasterTransferAbortEDMA(SPI_Type*, dspi_master_edma_handle_t*)	16	static
+fsl_dspi_edma.c:1062:10:status_t DSPI_MasterTransferGetCountEDMA(SPI_Type*, dspi_master_edma_handle_t*, size_t*)	40	static
+fsl_dspi_edma.c:1107:6:void DSPI_SlaveTransferCreateHandleEDMA(SPI_Type*, dspi_slave_edma_handle_t*, dspi_slave_edma_transfer_callback_t, void*, edma_handle_t*, edma_handle_t*)	32	static
+fsl_dspi_edma.c:1150:10:status_t DSPI_SlaveTransferEDMA(SPI_Type*, dspi_slave_edma_handle_t*, dspi_transfer_t*)	104	static
+fsl_dspi_edma.c:1451:13:void EDMA_DspiSlaveCallback(edma_handle_t*, void*, bool, uint32_t)	40	static
+fsl_dspi_edma.c:1482:6:void DSPI_SlaveTransferAbortEDMA(SPI_Type*, dspi_slave_edma_handle_t*)	16	static
+fsl_dspi_edma.c:1506:10:status_t DSPI_SlaveTransferGetCountEDMA(SPI_Type*, dspi_slave_edma_handle_t*, size_t*)	40	static

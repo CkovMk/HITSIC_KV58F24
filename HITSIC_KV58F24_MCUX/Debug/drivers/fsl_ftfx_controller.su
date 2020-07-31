@@ -1,0 +1,24 @@
+fsl_ftfx_controller.c:190:6:void FTFx_API_Init(ftfx_config_t*)	16	static
+fsl_ftfx_controller.c:260:10:status_t FTFx_CMD_Erase(ftfx_config_t*, uint32_t, uint32_t, uint32_t)	48	static
+fsl_ftfx_controller.c:324:10:status_t FTFx_CMD_EraseAll(ftfx_config_t*, uint32_t)	24	static
+fsl_ftfx_controller.c:365:10:status_t FTFx_CMD_EraseAllUnsecure(ftfx_config_t*, uint32_t)	24	static
+fsl_ftfx_controller.c:406:10:status_t FTFx_CMD_EraseAllExecuteOnlySegments(ftfx_config_t*, uint32_t)	24	static
+fsl_ftfx_controller.c:435:10:status_t FTFx_CMD_Program(ftfx_config_t*, uint32_t, const uint8_t*, uint32_t)	48	static
+fsl_ftfx_controller.c:501:10:status_t FTFx_CMD_ProgramOnce(ftfx_config_t*, uint32_t, const uint8_t*, uint32_t)	40	static
+fsl_ftfx_controller.c:545:10:status_t FTFx_CMD_ProgramSection(ftfx_config_t*, uint32_t, const uint8_t*, uint32_t)	64	static
+fsl_ftfx_controller.c:707:10:status_t FTFx_CMD_ReadOnce(ftfx_config_t*, uint32_t, uint8_t*, uint32_t)	32	static
+fsl_ftfx_controller.c:756:10:status_t FTFx_CMD_ReadResource(ftfx_config_t*, uint32_t, uint8_t*, uint32_t, ftfx_read_resource_opt_t)	56	static
+fsl_ftfx_controller.c:830:10:status_t FTFx_CMD_VerifyErase(ftfx_config_t*, uint32_t, uint32_t, ftfx_margin_value_t)	56	static
+fsl_ftfx_controller.c:896:10:status_t FTFx_CMD_VerifyEraseAll(ftfx_config_t*, ftfx_margin_value_t)	16	static
+fsl_ftfx_controller.c:914:10:status_t FTFx_CMD_VerifyEraseAllExecuteOnlySegments(ftfx_config_t*, ftfx_margin_value_t)	16	static
+fsl_ftfx_controller.c:935:10:status_t FTFx_CMD_VerifyProgram(ftfx_config_t*, uint32_t, uint32_t, const uint8_t*, ftfx_margin_value_t, uint32_t*, uint32_t*)	48	static
+fsl_ftfx_controller.c:997:10:status_t FTFx_CMD_SecurityBypass(ftfx_config_t*, const uint8_t*)	24	static
+fsl_ftfx_controller.c:1032:10:status_t FTFx_REG_GetSecurityState(ftfx_config_t*, ftfx_security_state_t*)	24	static
+fsl_ftfx_controller.c:1143:13:void ftfx_init_ifr(ftfx_config_t*)	16	static
+fsl_ftfx_controller.c:1188:13:void ftfx_copy_run_command_to_ram(uint32_t*)	16	static
+fsl_ftfx_controller.c:1206:17:status_t ftfx_command_sequence(ftfx_config_t*)	24	static
+fsl_ftfx_controller.c:1264:17:status_t ftfx_check_mem_range(ftfx_config_t*, uint32_t, uint32_t, uint8_t)	32	static
+fsl_ftfx_controller.c:1300:17:status_t ftfx_check_user_key(uint32_t)	16	static
+fsl_ftfx_controller.c:1312:17:uint32_t ftfx_read_word_from_byte_address(const uint8_t*)	32	static
+fsl_ftfx_controller.c:1335:13:void ftfx_write_word_to_byte_address(uint8_t*, uint32_t)	24	static
+fsl_ftfx_controller.c:1356:17:status_t ftfx_check_resource_range(ftfx_config_t*, uint32_t, uint32_t, uint32_t, ftfx_read_resource_opt_t)	32	static

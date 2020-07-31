@@ -1,0 +1,12 @@
+fsl_uart.h:422:24:uint32_t UART_GetDataRegisterAddress(UART_Type*)	16	static
+fsl_uart.h:435:20:void UART_EnableTxDMA(UART_Type*, bool)	16	static
+fsl_uart.h:465:20:void UART_EnableRxDMA(UART_Type*, bool)	16	static
+fsl_uart_edma.c:100:13:void UART_SendEDMACallback(edma_handle_t*, void*, bool, uint32_t)	40	static
+fsl_uart_edma.c:127:13:void UART_ReceiveEDMACallback(edma_handle_t*, void*, bool, uint32_t)	40	static
+fsl_uart_edma.c:159:6:void UART_TransferCreateHandleEDMA(UART_Type*, uart_edma_handle_t*, uart_edma_transfer_callback_t, void*, edma_handle_t*, edma_handle_t*)	32	static
+fsl_uart_edma.c:225:10:status_t UART_SendEDMA(UART_Type*, uart_edma_handle_t*, uart_transfer_t*)	80	static
+fsl_uart_edma.c:279:10:status_t UART_ReceiveEDMA(UART_Type*, uart_edma_handle_t*, uart_transfer_t*)	80	static
+fsl_uart_edma.c:328:6:void UART_TransferAbortSendEDMA(UART_Type*, uart_edma_handle_t*)	16	static
+fsl_uart_edma.c:350:6:void UART_TransferAbortReceiveEDMA(UART_Type*, uart_edma_handle_t*)	16	static
+fsl_uart_edma.c:376:10:status_t UART_TransferGetReceiveCountEDMA(UART_Type*, uart_edma_handle_t*, uint32_t*)	32	static
+fsl_uart_edma.c:407:10:status_t UART_TransferGetSendCountEDMA(UART_Type*, uart_edma_handle_t*, uint32_t*)	32	static
