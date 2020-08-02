@@ -1,1 +1,0 @@
-crc_adapter.c:16:10:uint32_t HAL_CrcCompute(hal_crc_config_t*, uint8_t*, uint32_t)	40	static

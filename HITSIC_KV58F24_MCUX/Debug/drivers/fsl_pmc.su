@@ -1,4 +1,0 @@
-fsl_pmc.c:42:6:void PMC_ConfigureLowVoltDetect(PMC_Type*, const pmc_low_volt_detect_config_t*)	16	static
-fsl_pmc.c:63:6:void PMC_ConfigureLowVoltWarning(PMC_Type*, const pmc_low_volt_warning_config_t*)	16	static
-fsl_pmc.c:84:6:void PMC_ConfigureHighVoltDetect(PMC_Type*, const pmc_high_volt_detect_config_t*)	16	static
-fsl_pmc.c:106:6:void PMC_ConfigureBandgapBuffer(PMC_Type*, const pmc_bandgap_buffer_config_t*)	16	static

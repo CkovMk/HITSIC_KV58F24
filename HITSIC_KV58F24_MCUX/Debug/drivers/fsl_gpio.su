@@ -1,5 +1,0 @@
-fsl_gpio.h:162:20:void GPIO_PinWrite(GPIO_Type*, uint32_t, uint8_t)	32	static
-fsl_gpio.c:54:17:uint32_t GPIO_GetInstance(GPIO_Type*)	24	static
-fsl_gpio.c:98:6:void GPIO_PinInit(GPIO_Type*, uint32_t, const gpio_pin_config_t*)	32	static
-fsl_gpio.c:129:10:uint32_t GPIO_PortGetInterruptFlags(GPIO_Type*)	24	static
-fsl_gpio.c:171:6:void GPIO_PortClearInterruptFlags(GPIO_Type*, uint32_t)	24	static

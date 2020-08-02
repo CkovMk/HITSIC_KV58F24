@@ -1,8 +1,0 @@
-fsl_clock.h:672:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
-fsl_clock.h:683:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
-fsl_pdb.h:311:20:void PDB_Enable(PDB_Type*, bool)	16	static
-fsl_pdb.c:39:17:uint32_t PDB_GetInstance(PDB_Type*)	24	static
-fsl_pdb.c:68:6:void PDB_Init(PDB_Type*, const pdb_config_t*)	24	static
-fsl_pdb.c:100:6:void PDB_Deinit(PDB_Type*)	16	static
-fsl_pdb.c:123:6:void PDB_GetDefaultConfig(pdb_config_t*)	16	static
-fsl_pdb.c:145:6:void PDB_SetDACTriggerConfig(PDB_Type*, pdb_dac_trigger_channel_t, pdb_dac_trigger_config_t*)	32	static

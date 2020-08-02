@@ -1,7 +1,0 @@
-fsl_ftfx_cache.c:146:10:status_t FTFx_CACHE_Init(ftfx_cache_config_t*)	16	static
-fsl_ftfx_cache.c:175:10:status_t FTFx_CACHE_ClearCachePrefetchSpeculation(ftfx_cache_config_t*, bool)	16	static
-fsl_ftfx_cache.c:208:10:status_t FTFx_CACHE_PflashSetPrefetchSpeculation(ftfx_prefetch_speculation_status_t*)	16	static
-fsl_ftfx_cache.c:289:10:status_t FTFx_CACHE_PflashGetPrefetchSpeculation(ftfx_prefetch_speculation_status_t*)	24	static
-fsl_ftfx_cache.c:356:13:void ftfx_copy_common_bit_operation_to_ram(uint32_t*)	16	static
-fsl_ftfx_cache.c:366:13:void ftfx_common_bit_operation_command_sequence(ftfx_cache_config_t*, volatile uint32_t*, uint32_t, uint32_t, uint32_t)	40	static
-fsl_ftfx_cache.c:534:6:void fmc_flash_prefetch_speculation_clear(ftfx_cache_config_t*)	24	static

@@ -1,6 +1,0 @@
-fsl_llwu.c:27:6:void LLWU_SetExternalWakeupPinMode(LLWU_Type*, uint32_t, llwu_external_pin_mode_t)	32	static
-fsl_llwu.c:125:6:bool LLWU_GetExternalWakeupPinFlag(LLWU_Type*, uint32_t)	24	static
-fsl_llwu.c:207:6:void LLWU_ClearExternalWakeupPinFlag(LLWU_Type*, uint32_t)	24	static
-fsl_llwu.c:276:6:void LLWU_SetPinFilterMode(LLWU_Type*, uint32_t, llwu_external_pin_filter_mode_t)	32	static
-fsl_llwu.c:346:6:bool LLWU_GetPinFilterFlag(LLWU_Type*, uint32_t)	24	static
-fsl_llwu.c:390:6:void LLWU_ClearPinFilterFlag(LLWU_Type*, uint32_t)	24	static

@@ -1,5 +1,0 @@
-fsl_ram_disk.c:37:9:DSTATUS ram_disk_status(BYTE)	16	static
-fsl_ram_disk.c:49:9:DSTATUS ram_disk_initialize(BYTE)	16	static
-fsl_ram_disk.c:61:9:DRESULT ram_disk_read(BYTE, BYTE*, LBA_t, UINT)	24	static
-fsl_ram_disk.c:74:9:DRESULT ram_disk_write(BYTE, const BYTE*, LBA_t, UINT)	24	static
-fsl_ram_disk.c:87:9:DRESULT ram_disk_ioctl(BYTE, BYTE, void*)	16	static

@@ -1,4 +1,0 @@
-fsl_common.c:111:7:void* SDK_Malloc(size_t, size_t)	32	static
-fsl_common.c:137:6:void SDK_Free(void*)	24	static
-fsl_common.c:214:13:void DelayLoop(uint32_t)	16	static
-fsl_common.c:241:6:void SDK_DelayAtLeastUs(uint32_t, uint32_t)	40	static

@@ -1,5 +1,0 @@
-trng_adapter.c:13:18:hal_rng_status_t HAL_RngInit()	104	static
-trng_adapter.c:37:6:void HAL_RngDeinit()	16	static
-trng_adapter.c:44:18:hal_rng_status_t HAL_RngHwGetData(void*, uint32_t)	24	static
-trng_adapter.c:59:18:hal_rng_status_t HAL_RngGetData(void*, uint32_t)	24	static
-trng_adapter.c:73:18:hal_rng_status_t HAL_RngSetSeed(uint32_t)	16	static

@@ -1,0 +1,3 @@
+[submodule "HITSIC_KV58F24_MCUX/HITSIC_Module"]
+	path = HITSIC_KV58F24_MCUX/HITSIC_Module
+	url = https://github.com/CkovMk/HITSIC_Module
