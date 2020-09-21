@@ -27,7 +27,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
- 
+
 /**
  * @file    HITSIC_KV58F24_MCUX.cpp
  * @brief   Application entry point.
@@ -46,24 +46,49 @@
 /*
  * @brief   Application entry point.
  */
-int main(void) {
-  	/* Init board hardware. */
-    BOARD_InitBootPins();
-    BOARD_InitBootClocks();
-    BOARD_InitBootPeripherals();
-  	/* Init FSL debug console. */
-	BOARD_InitDebugConsole();
+int main(void)
+{
+    /* Init board hardware. */
+    /// init basic pin mux
+    RTEPIN_Basic();
+    RTEPIN_Debug();
+    /// init HsRun clock
+    //RTECLK_HsRun240();
+    RTECLK_Xtalless();
+    /// continue init other pin mux
+    RTEPIN_InterMcuComm();
+    RTEPIN_CLED();
+    RTEPIN_EMAG();
+    RTEPIN_TofSensor();
+    RTEPIN_ImuTcsSensor();
+    RTEPIN_Switch();
+    RTEPIN_AuxUart();
+    /// init peripherals
+    RTEPIP_Basic();
+    RTEPIP_Analog();
+    RTEPIP_Digital();
+
+    /* Init FSL debug console. */
+    DbgConsole_Init(0U, 115200, kSerialPort_Uart, CLOCK_GetFreq(kCLOCK_FastPeriphClk));
 
     PRINTF("Hello World\n");
+    PRINTF("Core:            %ld Hz\r\n", CLOCK_GetFreq(kCLOCK_CoreSysClk));
+    PRINTF("Platform:        %ld Hz\r\n", CLOCK_GetFreq(kCLOCK_PlatClk));
+    PRINTF("Bus:             %ld Hz\r\n", CLOCK_GetFreq(kCLOCK_BusClk));
+    PRINTF("FlexBus:         %ld Hz\r\n", CLOCK_GetFreq(kCLOCK_FlexBusClk));
+    PRINTF("Flash:           %ld Hz\r\n", CLOCK_GetFreq(kCLOCK_FlashClk));
+    PRINTF("FastPeriph:      %ld Hz\r\n", CLOCK_GetFreq(kCLOCK_FastPeriphClk));
+    PRINTF("PllFll:          %ld Hz\r\n", CLOCK_GetFreq(kCLOCK_PllFllSelClk));
 
     /* Force the counter to be placed into memory. */
-    volatile static int i = 0 ;
+    volatile static int i = 0;
     /* Enter an infinite loop, just incrementing a counter. */
-    while(1) {
-        i++ ;
+    while (1)
+    {
+        i++;
         /* 'Dummy' NOP to allow source level single stepping of
-            tight while() loop */
+         tight while() loop */
         __asm volatile ("nop");
     }
-    return 0 ;
+    return 0;
 }

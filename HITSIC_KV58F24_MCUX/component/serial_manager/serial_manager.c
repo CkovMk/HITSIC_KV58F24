@@ -153,7 +153,13 @@ typedef struct _serial_manager_handle
  ******************************************************************************/
 
 #if (defined(SERIAL_MANAGER_NON_BLOCKING_MODE) && (SERIAL_MANAGER_NON_BLOCKING_MODE > 0U))
+#if defined(__cplusplus)
+extern "C" {
+#endif /* _cplusplus */
 static void SerialManager_Task(void *param);
+#if defined(__cplusplus)
+}
+#endif /* _cplusplus */
 #endif
 
 /*******************************************************************************
